@@ -10,7 +10,7 @@ Release:	1
 License:	MIT
 Group:		File tools
 URL:		https://github.com/robertmuil/%{name}
-Source0:	https://github.com/robertmuil/%{name}/archive/%{commit}/%{name}-%{shortcommit}.zip
+Source0:	https://github.com/robertmuil/%{name}/archive/%{commit}/%{name}-%{commit}.zip
 
 Requires:	tcplay
 
@@ -29,7 +29,7 @@ with containers formatted as ext4.
 %doc LICENSE
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q -n %{name}-%{commit}
 
 %build
 # Nothing to do here
