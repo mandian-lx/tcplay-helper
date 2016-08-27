@@ -37,5 +37,5 @@ with containers formatted as ext4.
 %install
 # binary
 %__install -dm 0755 %{buildroot}%{_bindir}/
-%__install -pm 0755 build/%{name} %{buildroot}%{_bindir}/
+%__install -pm 0755 %{name} %{buildroot}%{_bindir}/
 
