@@ -11,6 +11,7 @@ License:	MIT
 Group:		File tools
 URL:		https://github.com/robertmuil/%{name}
 Source0:	https://github.com/robertmuil/%{name}/archive/%{commit}/%{name}-%{commit}.zip
+BuildArch:	noarch
 
 Requires:	tcplay
 
