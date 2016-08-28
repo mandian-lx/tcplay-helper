@@ -5,7 +5,7 @@
 
 Summary:	A wrapper script for tc-play for pain free management of tc-play containers
 Name:		tcplay-helper
-Version:	0-git%{date}
+Version:	0_git%{date}
 Release:	1
 License:	MIT
 Group:		File tools
